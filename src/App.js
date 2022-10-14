@@ -1,10 +1,12 @@
-
 import './App.css';
+// import Input from './Input';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Dashboard</h1>
+      <Header/>
+      {/* <Input /> */}
     </div>
   );
 }
